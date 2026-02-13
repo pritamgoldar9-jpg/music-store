@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Store</title>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1611347224063-5fdfb1f2d937?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80');
+            background-size: cover;
+            color: white;
+            font-family: Arial;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: yellow;
+        }
+        table {
+            width: 100%;
+            border: 1px solid white;
+            background-color: rgba(0,0,0,0.7);
+        }
+        td {
+            padding: 10px;
+            border: 1px solid white;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        form {
+            background-color: rgba(0,0,0,0.8);
+            padding: 20px;
+            width: 400px;
+            margin: 20px auto;
+            border: 2px solid white;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        button {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Music Store</h1>
+    
+    <h2>Albums</h2>
+    <table>
+        <tr>
+            <td>
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=200&fit=crop" alt="Thriller">
+                <h3>Thriller</h3>
+                <p><b>Artist:</b> Michael Jackson</p>
+                <p><b>Year:</b> 1982 <b>Genre:</b> Pop</p>
+                <p>Songs: Billie Jean, Beat It, Thriller</p>
+            </td>
+            <td>
+                <img src="https://images.unsplash.com/photo-1462398162067-1d2195af9547?w=300&h=200&fit=crop" alt="Abbey Road">
+                <h3>Abbey Road</h3>
+                <p><b>Artist:</b> The Beatles</p>
+                <p><b>Year:</b> 1969 <b>Genre:</b> Rock</p>
+                <p>Songs: Come Together, Something, Here Comes the Sun</p>
+            </td>
+            <td>
+                <img src="https://images.unsplash.com/photo-1508712726644-6bfdfb1bf7f7?w=300&h=200&fit=crop" alt="Dark Side">
+                <h3>The Dark Side</h3>
+                <p><b>Artist:</b> Pink Floyd</p>
+                <p><b>Year:</b> 1973 <b>Genre:</b> Rock</p>
+                <p>Songs: Money, Time, Brain Damage</p>
+            </td>
+        </tr>
+    </table>
+    
+    <h2>Viewer Subscription Form</h2>
+    <form>
+        <input type="text" placeholder="Name" required><br>
+        <input type="email" placeholder="Email" required><br>
+        <select required>
+            <option>Select Genre</option>
+            <option>Pop</option>
+            <option>Rock</option>
+            <option>Hip-Hop</option>
+        </select><br>
+        <textarea placeholder="Message" rows="4"></textarea><br>
+        <button type="submit">Subscribe</button>
+    </form>
+</body>
+</html>
+
